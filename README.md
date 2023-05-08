@@ -1,5 +1,5 @@
 # cinema-app
-This project is imitation of cinema web-site. Created with usage of Tomcat, SQL and Spring Framework.
+This project is imitation of cinema web-site. All info about movie, movie-session, users, shopping carts and orders are stored in data base. Supports role based authorization (admin and user) with password encryption. Admins can get customer info, add movies, add cinema halls, manage movie sessions. Users can register, create shopping cart, add tickets to movie session, complete order. Created with usage of Tomcat, SQL and Spring Framework.
 ## Features
 <ul>
   <li> Authentication and registration service</li>
