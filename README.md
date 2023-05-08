@@ -30,24 +30,24 @@ This project is imitation of cinema web-site. All info about movie, movie-sessio
 
 ## Structure
 <ul>
-  <li>config - contains configuration for Spring (including application context and configuration to beans)</li>
-  <li>controller - contains endpoints that can resive and handle various HTTP requests</li>
+  <li><code>config</code> - contains configuration for Spring (including application context and configuration to beans)</li>
+  <li><code>controller</code> - contains endpoints that can resive and handle various HTTP requests</li>
   <ul>
-    <li>AuthenticationController - for authentication proccess</li>
-    <li>CinemaHallController - for adding cinema hall and get list of all cinema halls.</li>
-    <li>CustomGlobalExceptionHandler - for handle various exception with HTTP requests.</li>
-    <li>MovieController - for adding movie and get list of all movies.</li>
-    <li>MovieSessionController - for adding, deleting, updating and to find aviable movie sessions.</li>
-    <li>OrderController - for compleating user orders and get orders history.</li>
-    <li>ShoppingCartController - for creating shopping cart with movie session and geting shopping cart via users login.</li>
-    <li>UserController - for finding user via login.</li>
+    <li><code>AuthenticationController</code> - for authentication proccess</li>
+    <li><code>CinemaHallController</code> - for adding cinema hall and get list of all cinema halls.</li>
+    <li><code>CustomGlobalExceptionHandler</code> - for handle various exception with HTTP requests.</li>
+    <li><code>MovieController</code> - for adding movie and get list of all movies.</li>
+    <li><code>MovieSessionController</code> - for adding, deleting, updating and to find aviable movie sessions.</li>
+    <li><code>OrderController</code> - for compleating user orders and get orders history.</li>
+    <li><code>ShoppingCartController</code> - for creating shopping cart with movie session and geting shopping cart via users login.</li>
+    <li><code>UserController</code> - for finding user via login.</li>
   </ul>
-  <li>dao - contains Data Access Object interfaces and their implementations for interaction with data base.</li>
-  <li>dto - contains Data Transfer Objects that helps to unify requests and responses in the controllers.</li>
-  <li>exception - contains custom DataProcessingException for handling exceptions in dao layer.</li>
-  <li>lib - contains classes and interfaces for email and password validations.</li>
-  <li>model - contains a models of the objects that the application works with.</li>
-  <li>service - contains services interface and implementations that are responsible for performing business logic and coordinating the interactions between the controllers and the DAO.</li>
+  <li><code>dao</code> - contains Data Access Object interfaces and their implementations for interaction with data base.</li>
+  <li><code>dto</code> - contains Data Transfer Objects that helps to unify requests and responses in the controllers.</li>
+  <li><code>exception</code> - contains custom DataProcessingException for handling exceptions in dao layer.</li>
+  <li><code>lib</code> - contains classes and interfaces for email and password validations.</li>
+  <li><code>model</code> - contains a models of the objects that the application works with.</li>
+  <li><code>service</code> - contains services interface and implementations that are responsible for performing business logic and coordinating the interactions between the controllers and the DAO.</li>
 </ul>
 
 ## Used technologies
