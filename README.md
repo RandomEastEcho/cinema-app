@@ -20,12 +20,12 @@ This project is imitation of cinema web-site. All info about movie, movie-sessio
 <ol>
   <li> Clone this reprositority</li>
   <li> Create schema in your MySql Workbanch</li>
-  <li> In resources/db.properties add correct data for your SQL connection</li>
-  <li> Establish connection to your SQL database</li>
-  <li> Configure Apache Tomcat</li>
+  <li> In <code>resources/db.properties</code> add correspondive data, instead of templates(<code>YOUR_DRIVER</code>, <code>YOUR_DATABASE_URL</code>, <code>YOUR_USERNAME_IN_DATABASE</code>, <code>YOUR_PASSWORD_FOR_DATABASE</code>), for correct SQL connection</li>
+  <li> Establish connection to your SQL database (for example using <code>Database</code> option in <code>Intelij Ultimate</code>)</li>
+  <li> Configure <code>Apache Tomcat</code></li>
   <li> Launch application</li>
   <li> Copmlete authentication for admin with data: login <code>admin@i.ua</code> and password <code>admin123</code> or for user: login <code>user@i.ua</code> and password <code>user123</code>. These users are already injected into our app.</li>
-  <li> Send various requests via Postman service</li>
+  <li> Send various requests via <code>Postman</code> service</li>
 </ol>
 
 ## Structure
